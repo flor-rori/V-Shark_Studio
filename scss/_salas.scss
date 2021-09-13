@@ -1,0 +1,24 @@
+$primary-color: white;
+$primary-fontsize: 4vh;
+
+.div__titulo{
+    display: flex;
+    justify-content: center;
+
+
+h3{
+    color: $primary-color;
+    font-size: $primary-fontsize*2;
+    padding: 7% 10%;
+    
+}
+}
+
+.d-block {
+    border-radius: 50%;
+    height: 50vh;
+}
+
+p{
+    color: $primary-color;
+}

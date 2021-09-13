@@ -1,0 +1,26 @@
+$primary-color: white;
+$primary-fontsize: 4vh;
+
+@mixin posicion ($display, $justify, $align) {
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.informacionGeneral {
+    padding: 1%;
+    font-size: $primary-fontsize/2;
+    color: $primary-color;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 90%;
+        width: 90%;
+    }
+
+    to {
+        margin-left: 10%;
+        width: 90%;
+    }
+}

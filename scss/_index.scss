@@ -1,0 +1,28 @@
+$primary-color: white;
+$primary-fontsize: 4vh;
+
+
+@mixin posicion ($display, $justify, $align) {
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+h1 {
+    @include posicion(flex, center, center);
+    font-size: $primary-fontsize*2 !important;
+    color: $primary-color;
+    padding: 5%;
+}
+
+
+.div__carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-block {
+    border-radius: 50%;
+    height: 80vh;
+}

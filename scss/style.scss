@@ -1,0 +1,56 @@
+@import "header";
+@import "nav";
+@import "index";
+@import "galeria";
+@import "estudio";
+@import "salas";
+
+$primary-color: white;
+$primary-fontsize: 4vh;
+
+
+@mixin posicion ($display, $justify, $align) {
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+
+body {
+    background-color: black !important;
+
+    a {
+        color: $primary-color;
+    }
+}
+
+.div__redessociales {
+    display: scroll;
+    position: fixed;
+    bottom: 10vh;
+    right: 0px;
+
+    .div__gif {
+        float: right;
+    }
+}
+
+@each $logoredes in logoRedes {
+    .#{$logoredes} {
+        width: 8vh;
+    }
+
+}
+
+
+.div__formulario{
+    @include posicion(flex, center, center);
+    .form-group{
+        padding-left: 10vh;
+    }
+}
+
+.div__footer {
+    background-color: rgb(68, 67, 67);
+    
+}

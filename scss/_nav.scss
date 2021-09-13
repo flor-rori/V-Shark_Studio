@@ -1,0 +1,49 @@
+$primary-color: white;
+$primary-fontsize: 4vh;
+
+nav {
+    display: flex;
+    justify-content: center;
+
+
+    li:hover {
+        transform: scale(0.7, 0.7);
+
+        a {
+            color: white;
+        }
+    }
+
+    li {
+        margin-left: 5vh;
+        display: inline-flex;
+        position: relative;
+        font-size: $primary-fontsize;
+        list-style-type: none;
+        
+
+        a {
+            font-size: $primary-fontsize;
+            text-decoration: none;
+        }
+
+    }
+
+    ul {
+        ul {
+            display: none;
+            position: absolute;
+        }
+
+        li:hover ul {
+            display: flex;
+            align-content: center;
+            padding-top: 80%;
+            padding-right: 0%;
+            a {
+                display: flex;
+            }
+        }
+    }
+}
+

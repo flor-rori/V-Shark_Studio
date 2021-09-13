@@ -1,0 +1,118 @@
+.header {
+  background-image: url(../multimedia/header/vsharkcab.png);
+  background-size: cover;
+  height: 150px; }
+  .header h3 {
+    font-size: 4vh;
+    float: right; }
+
+nav {
+  display: flex;
+  justify-content: center; }
+  nav li:hover {
+    transform: scale(0.7, 0.7); }
+    nav li:hover a {
+      color: white; }
+  nav li {
+    margin-left: 5vh;
+    display: inline-flex;
+    position: relative;
+    font-size: 4vh;
+    list-style-type: none; }
+    nav li a {
+      font-size: 4vh;
+      text-decoration: none; }
+  nav ul ul {
+    display: none;
+    position: absolute; }
+  nav ul li:hover ul {
+    display: flex;
+    align-content: center;
+    padding-top: 80%;
+    padding-right: 0%; }
+    nav ul li:hover ul a {
+      display: flex; }
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8vh !important;
+  color: white;
+  padding: 5%; }
+
+.div__carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.d-block {
+  border-radius: 50%;
+  height: 80vh; }
+
+.container__galeria .col {
+  display: flex;
+  justify-content: center; }
+  .container__galeria .col .imagen__galeria {
+    border-radius: 20%;
+    width: 50vh; }
+
+.row {
+  padding: 2%; }
+
+.imagen__galeria:hover {
+  transform: scale(2, 2); }
+
+.informacionGeneral {
+  padding: 1%;
+  font-size: 2vh;
+  color: white; }
+
+@keyframes slidein {
+  from {
+    margin-left: 90%;
+    width: 90%; }
+  to {
+    margin-left: 10%;
+    width: 90%; } }
+
+.div__titulo {
+  display: flex;
+  justify-content: center; }
+  .div__titulo h3 {
+    color: white;
+    font-size: 8vh;
+    padding: 7% 10%; }
+
+.d-block {
+  border-radius: 50%;
+  height: 50vh; }
+
+p {
+  color: white; }
+
+body {
+  background-color: black !important; }
+  body a {
+    color: white; }
+
+.div__redessociales {
+  display: scroll;
+  position: fixed;
+  bottom: 10vh;
+  right: 0px; }
+  .div__redessociales .div__gif {
+    float: right; }
+
+.logoRedes {
+  width: 8vh; }
+
+.div__formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .div__formulario .form-group {
+    padding-left: 10vh; }
+
+.div__footer {
+  background-color: #444343; }
