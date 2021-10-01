@@ -4,5 +4,9 @@ $primary-fontsize: 2vw;
 
 .error404 {
     text-align: center; 
-    font-size: $primary-fontsize;   
+    font-size: $primary-fontsize;
+    .div__gif{
+        width: 15vw;
+        height: 7.5vw;
+    }   
 }

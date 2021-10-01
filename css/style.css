@@ -46,7 +46,7 @@ h1 {
   justify-content: center;
   align-items: center; }
   .div__carousel .d-block {
-    border-radius: 20%;
+    border-radius: 15%;
     width: 50vw !important;
     height: 40vw !important; }
 
@@ -88,9 +88,9 @@ h1 {
   justify-items: center;
   align-items: center; }
   .col-md .d-block {
-    border-radius: 30%;
+    border-radius: 20%;
     width: 30vw !important;
-    height: 20vw; }
+    height: 20vw !important; }
 
 p {
   color: white;
@@ -99,6 +99,9 @@ p {
 .error404 {
   text-align: center;
   font-size: 2vw; }
+  .error404 .div__gif {
+    width: 15vw;
+    height: 7.5vw; }
 
 .elemento_animado {
   animation-duration: 0.60s;
