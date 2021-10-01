@@ -115,7 +115,7 @@ p {
 body {
   background-color: black !important; }
   body a {
-    color: white; }
+    color: white !important; }
 
 .div__redessociales {
   display: scroll;

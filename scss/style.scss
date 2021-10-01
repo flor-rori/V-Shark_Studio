@@ -12,6 +12,7 @@ $primary-color: white;
 $primary-fontsize: 2vw;
 
 
+
 .elemento_animado {
     animation-duration: 0.60s;
     transition-timing-function: ease-in;
@@ -45,7 +46,7 @@ body {
     background-color: black !important;
 
     a {
-        color: $primary-color;
+        color: $primary-color !important;
     }
 }
 
