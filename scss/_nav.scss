@@ -1,5 +1,5 @@
 $primary-color: white;
-$primary-fontsize: 4vh;
+$primary-fontsize: 2vw;
 
 nav {
     display: flex;
@@ -11,19 +11,20 @@ nav {
 
         a {
             color: white;
+
         }
     }
 
     li {
-        margin-left: 5vh;
+        margin-inline: 2vw;
         display: inline-flex;
         position: relative;
-        font-size: $primary-fontsize;
+        font-size: $primary-fontsize*2;
         list-style-type: none;
-        
+
 
         a {
-            font-size: $primary-fontsize;
+            font-size: 3vw;
             text-decoration: none;
         }
 
@@ -37,13 +38,13 @@ nav {
 
         li:hover ul {
             display: flex;
-            align-content: center;
             padding-top: 80%;
-            padding-right: 0%;
+            align-items: center;
+            margin-left: -10vw !important;
+
             a {
                 display: flex;
             }
         }
     }
 }
-

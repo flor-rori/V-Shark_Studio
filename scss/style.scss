@@ -4,9 +4,34 @@
 @import "galeria";
 @import "estudio";
 @import "salas";
+@import "error404";
+
+
 
 $primary-color: white;
-$primary-fontsize: 4vh;
+$primary-fontsize: 2vw;
+
+
+.elemento_animado {
+    animation-duration: 0.60s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+}
+
+.transicion--fadein {
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 
 
 @mixin posicion ($display, $justify, $align) {
@@ -27,30 +52,51 @@ body {
 .div__redessociales {
     display: scroll;
     position: fixed;
-    bottom: 10vh;
+    bottom: 10vw;
     right: 0px;
 
     .div__gif {
         float: right;
+        width: 5vw;
     }
 }
 
 @each $logoredes in logoRedes {
     .#{$logoredes} {
-        width: 8vh;
+        width: 5vw;
     }
 
 }
 
 
-.div__formulario{
+.formulario {
     @include posicion(flex, center, center);
-    .form-group{
-        padding-left: 10vh;
+    font-size: 1.5vw;
+
+    .input {
+        display: flex;
+        justify-content: center;
     }
+
 }
+
 
 .div__footer {
     background-color: rgb(68, 67, 67);
-    
+    font-size: $primary-fontsize;
+    margin-top: 2vw;
+
+    /* VISTA MOVIL  */
+    @media only screen and (max-width:599px) {
+        position: fixed;
+        left: 0vw;
+        bottom: 0%;
+        width: 100%;
+    }
+
+
+    p {
+        margin-left: 1vw !important;
+    }
+
 }

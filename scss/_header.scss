@@ -1,12 +1,12 @@
-$primary-fontsize: 4vh;
+$primary-fontsize: 2vw;
 
 .header {
     background-image: url(../multimedia/header/vsharkcab.png);
     background-size: cover;
-    height: 150px;
+    height: 10vw;
 
     h3 {
         font-size: $primary-fontsize;
-        float: right;  
+        float: right;
     }
 }

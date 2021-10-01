@@ -1,23 +1,23 @@
 $primary-color: white;
 
-.container__galeria{
+.container__galeria {
 
-    .col{
+    .col {
         display: flex;
         justify-content: center;
 
-        .imagen__galeria{
-        border-radius: 20%;
-        width: 50vh; 
-    } 
-    }        
+        .imagen__galeria {
+            border-radius: 20%;
+            width: 25vw;
+            height: 25vw;
+        }
+    }
 }
 
-    .row{
-        padding: 2%;
-    }
+.row {
+    padding: 2%;
+}
 
-    .imagen__galeria:hover {
-        transform: scale(2, 2);
-
-    }
+.imagen__galeria:hover {
+    transform: scale(1.3, 1.3);
+}
