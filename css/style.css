@@ -47,7 +47,8 @@ h1 {
   align-items: center; }
   .div__carousel .d-block {
     border-radius: 20%;
-    height: 40vw; }
+    width: 50vw !important;
+    height: 40vw !important; }
 
 .container__galeria .col {
   display: flex;
@@ -87,8 +88,9 @@ h1 {
   justify-items: center;
   align-items: center; }
   .col-md .d-block {
-    border-radius: 50%;
-    width: 30vw !important; }
+    border-radius: 30%;
+    width: 30vw !important;
+    height: 20vw; }
 
 p {
   color: white;
