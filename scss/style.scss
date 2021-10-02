@@ -11,6 +11,10 @@
 $primary-color: white;
 $primary-fontsize: 2vw;
 
+/* VISTA MOVIL  */
+@media only screen and (max-width:768px) {
+    $primary-fontsize: 4vw !important;
+}
 
 
 .elemento_animado {
@@ -53,13 +57,14 @@ body {
 .div__redessociales {
     display: scroll;
     position: fixed;
-    bottom: 10vw;
-    right: 0px;
+    bottom: 15vw;
+    right: 1vw;
 
-    .div__gif {
-        float: right;
-        width: 5vw;
+    /* VISTA MOVIL  */
+    @media only screen and (max-width:768px) {
+        bottom: 25vw;
     }
+
 }
 
 @each $logoredes in logoRedes {
@@ -79,6 +84,12 @@ body {
         justify-content: center;
     }
 
+    /* VISTA MOVIL  */
+    @media only screen and (max-width:768px) {
+        font-size: 3vw;
+        margin-left: 2vw;
+    }
+
 }
 
 
@@ -87,8 +98,9 @@ body {
     font-size: $primary-fontsize;
     margin-top: 2vw;
 
+
     /* VISTA MOVIL  */
-    @media only screen and (max-width:599px) {
+    @media only screen and (max-width:768px) {
         position: fixed;
         left: 0vw;
         bottom: 0%;

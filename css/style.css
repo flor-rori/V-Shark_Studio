@@ -17,11 +17,15 @@ nav {
     margin-inline: 2vw;
     display: inline-flex;
     position: relative;
-    font-size: 4vw;
     list-style-type: none; }
     nav li a {
       font-size: 3vw;
+      /* VISTA MOVIL  */
       text-decoration: none; }
+      @media only screen and (max-width: 768px) {
+        nav li a {
+          font-size: 4vw !important;
+          margin-left: -2vw; } }
   nav ul ul {
     display: none;
     position: absolute; }
@@ -39,7 +43,12 @@ h1 {
   align-items: center;
   font-size: 4vw !important;
   color: white;
-  padding: 5%; }
+  padding: 5%;
+  /* VISTA MOVIL  */ }
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 6vw !important;
+      text-align: center; } }
 
 .div__carousel {
   display: flex;
@@ -48,7 +57,13 @@ h1 {
   .div__carousel .d-block {
     border-radius: 15%;
     width: 50vw !important;
-    height: 40vw !important; }
+    height: 40vw !important;
+    /* VISTA MOVIL  */ }
+    @media only screen and (max-width: 768px) {
+      .div__carousel .d-block {
+        width: 85vw !important;
+        height: 70vw !important;
+        margin-top: 15vw; } }
 
 .container__galeria .col {
   display: flex;
@@ -56,7 +71,13 @@ h1 {
   .container__galeria .col .imagen__galeria {
     border-radius: 20%;
     width: 25vw;
-    height: 25vw; }
+    height: 25vw;
+    /* VISTA MOVIL  */ }
+    @media only screen and (max-width: 768px) {
+      .container__galeria .col .imagen__galeria {
+        width: 45vw;
+        height: 45vw;
+        margin-bottom: 4vw; } }
 
 .row {
   padding: 2%; }
@@ -69,7 +90,11 @@ h1 {
   font-size: 1vw;
   color: white; }
   .informacionGeneral h2 {
-    font-size: 3vw; }
+    font-size: 3vw;
+    /* VISTA MOVIL  */ }
+    @media only screen and (max-width: 768px) {
+      .informacionGeneral h2 {
+        font-size: 4vw !important; } }
 
 @keyframes slidein {
   from {
@@ -90,11 +115,20 @@ h1 {
   .col-md .d-block {
     border-radius: 20%;
     width: 30vw !important;
-    height: 20vw !important; }
+    height: 20vw !important;
+    /* VISTA MOVIL  */ }
+    @media only screen and (max-width: 768px) {
+      .col-md .d-block {
+        width: 40vw !important;
+        height: 40vw !important; } }
 
 p {
   color: white;
-  font-size: 2vw; }
+  font-size: 2vw;
+  /* VISTA MOVIL  */ }
+  @media only screen and (max-width: 768px) {
+    p {
+      font-size: 4vw !important; } }
 
 .error404 {
   text-align: center;
@@ -103,6 +137,7 @@ p {
     width: 15vw;
     height: 7.5vw; }
 
+/* VISTA MOVIL  */
 .elemento_animado {
   animation-duration: 0.60s;
   transition-timing-function: ease-in;
@@ -125,11 +160,12 @@ body {
 .div__redessociales {
   display: scroll;
   position: fixed;
-  bottom: 10vw;
-  right: 0px; }
-  .div__redessociales .div__gif {
-    float: right;
-    width: 5vw; }
+  bottom: 15vw;
+  right: 1vw;
+  /* VISTA MOVIL  */ }
+  @media only screen and (max-width: 768px) {
+    .div__redessociales {
+      bottom: 25vw; } }
 
 .logoRedes {
   width: 5vw; }
@@ -138,17 +174,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5vw; }
+  font-size: 1.5vw;
+  /* VISTA MOVIL  */ }
   .formulario .input {
     display: flex;
     justify-content: center; }
+  @media only screen and (max-width: 768px) {
+    .formulario {
+      font-size: 3vw;
+      margin-left: 2vw; } }
 
 .div__footer {
   background-color: #444343;
   font-size: 2vw;
   margin-top: 2vw;
   /* VISTA MOVIL  */ }
-  @media only screen and (max-width: 599px) {
+  @media only screen and (max-width: 768px) {
     .div__footer {
       position: fixed;
       left: 0vw;

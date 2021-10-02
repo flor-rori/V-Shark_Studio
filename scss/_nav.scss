@@ -1,10 +1,10 @@
 $primary-color: white;
 $primary-fontsize: 2vw;
 
+
 nav {
     display: flex;
     justify-content: center;
-
 
     li:hover {
         transform: scale(0.7, 0.7);
@@ -19,12 +19,19 @@ nav {
         margin-inline: 2vw;
         display: inline-flex;
         position: relative;
-        font-size: $primary-fontsize*2;
         list-style-type: none;
+
 
 
         a {
             font-size: 3vw;
+
+            /* VISTA MOVIL  */
+            @media only screen and (max-width:768px) {
+                font-size: $primary-fontsize*2 !important;
+                margin-left: -2vw;
+            }
+
             text-decoration: none;
         }
 

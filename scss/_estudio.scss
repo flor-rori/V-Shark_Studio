@@ -14,6 +14,12 @@ $primary-fontsize: 2vw;
 
     h2 {
         font-size: 3vw;
+
+        /* VISTA MOVIL  */
+        @media only screen and (max-width:768px) {
+            font-size: $primary-fontsize*2 !important;
+        }
+
     }
 }
 
