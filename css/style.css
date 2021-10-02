@@ -165,7 +165,8 @@ body {
   /* VISTA MOVIL  */ }
   @media only screen and (max-width: 768px) {
     .div__redessociales {
-      bottom: 25vw; } }
+      bottom: 25vw;
+      right: 5vw; } }
 
 .logoRedes {
   width: 5vw; }
@@ -193,7 +194,7 @@ body {
     .div__footer {
       position: fixed;
       left: 0vw;
-      bottom: 0%;
+      bottom: 0vw;
       width: 100%; } }
   .div__footer p {
     margin-left: 1vw !important; }

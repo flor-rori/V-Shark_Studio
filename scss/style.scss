@@ -63,6 +63,7 @@ body {
     /* VISTA MOVIL  */
     @media only screen and (max-width:768px) {
         bottom: 25vw;
+        right: 5vw;
     }
 
 }
@@ -103,7 +104,7 @@ body {
     @media only screen and (max-width:768px) {
         position: fixed;
         left: 0vw;
-        bottom: 0%;
+        bottom: 0vw;
         width: 100%;
     }
 
