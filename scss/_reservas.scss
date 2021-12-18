@@ -1,0 +1,39 @@
+$primary-color: white;
+$primary-fontsize: 2vw;
+
+
+#reserva {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 350px;
+    height: 50px;
+    margin-bottom: 50px !important;
+}
+
+select{
+    font-size: 1vw !important;
+}
+
+#colComentario {
+    margin-left: 50px !important;
+
+    textarea {
+        width: 350px !important;
+        height: 250px !important;
+    }
+
+
+    button {
+        width: 150px;
+        height: 70px;
+        margin-top: 50px !important;
+        font-size: 2vw !important;
+    }
+
+    .confirmacion {
+        font-size: 1vw;
+    }
+}

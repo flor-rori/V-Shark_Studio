@@ -1,10 +1,14 @@
 .header {
   background-image: url(../multimedia/header/vsharkcab.png);
   background-size: cover;
-  height: 10vw; }
+  height: 10vw;
+  display: flex;
+  justify-content: right; }
   .header h3 {
-    font-size: 2vw;
-    float: right; }
+    font-size: 2vw; }
+  .header p {
+    color: black;
+    text-align: right; }
 
 nav {
   display: flex;
@@ -130,12 +134,57 @@ p {
     p {
       font-size: 4vw !important; } }
 
-.error404 {
-  text-align: center;
-  font-size: 2vw; }
-  .error404 .div__gif {
-    width: 15vw;
-    height: 7.5vw; }
+#cuenta {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* modal crear usuario */
+.abrirModal {
+  display: flex;
+  justify-items: center; }
+
+.modal-container {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#modal {
+  width: 600px;
+  background-color: #464343;
+  border-radius: 15px; }
+
+.modal-active {
+  visibility: visible;
+  opacity: 1; }
+
+#reserva {
+  display: flex;
+  justify-content: center; }
+
+input {
+  width: 350px;
+  height: 50px;
+  margin-bottom: 50px !important; }
+
+select {
+  font-size: 1vw !important; }
+
+#colComentario {
+  margin-left: 50px !important; }
+  #colComentario textarea {
+    width: 350px !important;
+    height: 250px !important; }
+  #colComentario button {
+    width: 150px;
+    height: 70px;
+    margin-top: 50px !important;
+    font-size: 2vw !important; }
+  #colComentario .confirmacion {
+    font-size: 1vw; }
 
 /* VISTA MOVIL  */
 .elemento_animado {

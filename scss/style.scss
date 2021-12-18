@@ -4,12 +4,14 @@
 @import "galeria";
 @import "estudio";
 @import "salas";
-@import "error404";
+@import "usuario";
+@import "reservas";
 
 
 
 $primary-color: white;
 $primary-fontsize: 2vw;
+
 
 /* VISTA MOVIL  */
 @media only screen and (max-width:768px) {
@@ -53,6 +55,7 @@ body {
         color: $primary-color !important;
     }
 }
+
 
 .div__redessociales {
     display: scroll;

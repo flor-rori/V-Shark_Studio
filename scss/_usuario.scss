@@ -1,0 +1,38 @@
+$primary-color: white;
+$primary-fontsize: 2vw;
+
+#divCuenta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* modal crear usuario */
+.abrirModal{
+    display: flex;
+    justify-items: center;
+}
+
+.modal-container {
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#modal {
+    width: 600px;
+    background-color: rgb(70, 67, 67);
+    border-radius: 15px;
+    
+}
+
+.modal-active {
+    visibility: visible;
+    opacity: 1;
+}

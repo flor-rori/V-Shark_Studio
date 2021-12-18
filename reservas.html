@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords"
+    content="sala de ensayo, música, bandas, estudio de grabación, quilmes, rock, banda, instrumentos, music, grabación, discos, produccion, ensayo, rec, Argentina, Buenos Aires, alquiler, evento">
+  <meta name="description"
+    content="Alquiler sala de ensayo y estudio de grabación en Quilmes, Buenos Aires, Argentina.">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <title>Sala de ensayo y estudio de grabación V-Shark Studio</title>
+</head>
+
+<body>
+  <div class="elemento_animado transicion--fadein">
+    <header class="header">
+      <div>
+        <h3 class="header__titulo">V-Shark Studio</h3>
+        <a href="./usuario.html">
+          <p>Usuario</p>
+        </a>
+      </div>
+    </header>
+
+
+    <nav>
+      <ul>
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a>Salas</a>
+          <ul>
+            <li class="nav__tipoSala"><a href="./tigerShark.html">Tiger Shark</a></li>
+            <li class="nav__tipoSala"><a href="./White Shark.html">White Shark</a></li>
+          </ul>
+        </li>
+        <li><a href="./estudio.html">Estudio</a></li>
+        <li><a href="./galeria.html">Galeria</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+        <li><a href="./reservas.html">Reservas</a></li>
+      </ul>
+    </nav>
+  </div>
+
+
+
+  <div id="reserva">
+
+    <div class="col-2.5">
+      <ul>
+
+        <p>Confirma Usuario</p>
+        <input type="text" id="usuario" class="usuario" required="" placeholder="Usuario">
+
+        <p>Email </p>
+        <input type="email"  id="email" class="email" required="" placeholder="usuario@gmail.com">
+
+        <p>Celular</p>
+        <input type="text"  id="celular" class="celular" required="" placeholder="1578963412">
+
+        <p>Seleccione La Sala</p>
+        <select name="salas" id="salas">
+          <option value="Tiger Shark" id="salaTiger">Tiger Shark</option>
+          <option value="Withe Shark" id="salaWhite">Withe Shark</option>
+        </select>
+
+      </ul>
+    </div>
+
+    <div class="col-2.5">
+      <ul>
+
+        <P>Fecha</P>
+        <input type="text" id="fecha" class="" required="" placeholder="mm/dd/yyyy">
+
+        <P>Horario</P>
+        <input type="text" id="horario" class="" required="" placeholder="HH:MM AM/PM">
+
+        <P>Horas</P>
+        <input type="number" id="horas" class="horas" required="" placeholder="Cantidad de horas">
+
+
+      </ul>
+    </div>
+
+    <div class="col-2.5" id="colComentario">
+
+      <P>Comentario</P>
+      <textarea class="gui-textarea" id="comment" name="comment"
+        placeholder="Necesitas aclarar algo? Dejanos tu mensaje"></textarea>
+      <br>
+      <button type="submit" class="botonEnviar" id="btnEnviar">Enviar</button>
+      <button type="submit" class="botonLimpiar" onClick="window.location.reload()">Limpiar</button>
+      <p class="confirmacion">*La confirmacion se enviara al numero de telefono indicado</p>
+    </div>
+  </div>
+
+
+
+
+  <!--iconos de redes sociales-->
+  <div class="div__redessociales">
+    <a href="https://www.instagram.com/v_shark_studio/">
+      <img class="logoRedes" src="./multimedia/redesSociales/icons8-instagram-circle-30.png" alt="Link a Instagram"
+        id="logoInstagram">
+    </a>
+    <ul></ul>
+    <a href="https://api.whatsapp.com/send?phone=+541234567890" target="_blank">
+      <img class="logoRedes" src="./multimedia/redesSociales/logoWhatsapp.png" alt="Link a WhatsApp">
+    </a>
+  </div>
+
+
+
+  <footer>
+    <!--Tambien iria el sitemaps-->
+    <div class="div__footer">
+      <p class="footer">
+        Sala de Ensayo y Grabación V-Shark Studio
+        <ul></ul>
+        Calchaqui 3148, Quilmes, Buenos Aires.
+      </p>
+    </div>
+  </footer>
+
+  <script src="reserva.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

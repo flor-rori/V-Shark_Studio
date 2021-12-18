@@ -4,9 +4,16 @@ $primary-fontsize: 2vw;
     background-image: url(../multimedia/header/vsharkcab.png);
     background-size: cover;
     height: 10vw;
+    display: flex;
+    justify-content: right;
 
     h3 {
         font-size: $primary-fontsize;
-        float: right;
     }
+
+    p {
+        color: black;
+        text-align: right;
+    }
+    
 }
